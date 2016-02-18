@@ -1,0 +1,106 @@
+{% extends 'mobile-base.html.twig' %}
+
+{% block body %}
+
+<!--  <div class="container">
+  
+        <div class="container">
+          <div class="row">
+              <div class="span6">
+                <div class="container">
+                      <h1 class="text-center">Scheduler</h1>
+                      <p class="lead text-center">An easy webapp to maintain your homework, daily tasks,
+                    deadlines at work and more..!</p>
+                        
+                        <div class="row">
+                            <div class="pagination-centered">
+                                
+                                <a class="btn btn-large btn-primary btn-center" href="#">Sign in</a>
+                            </div>
+                        </div>
+                </div>
+              </div>
+          </div>
+            
+    </div>
+  </div>
+
+</div>-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+             <div class="icon calendar">
+                <i></i>
+                <i></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="container">
+                <div class="row">
+                    <div class="span6">
+                        <div class="container mobile-container">
+                            <h1 class="text-center">Scheduler</h1>
+                            <p class="lead text-center">An easy webapp to maintain your homework, daily tasks,
+                            deadlines at work and more..!</p>
+                        
+                            <div class="row">
+                                <div class="pagination-centered">
+                                    <a class="btn btn-large btn-primary btn-center" href="#">Sign in</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+
+{% block footer %}
+
+<!--Footer
+==========================-->
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+            &copy; 2016 djastin.com
+        </div>
+      </div>
+    </div>
+</footer>
+
+<!--/.Footer-->
+
+{% endblock %}
+
+{% block stylesheets %}
+
+<link href="{{ asset('assets/vendor/bootstrap/dist/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('assets/vendor/angular/angular-csp.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('assets/private/css/modules/sass-base/stylesheets/mobile-screen.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('assets/private/css/modules/sass-base/stylesheets/ie.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('assets/private/css/modules/sass-base/stylesheets/print.css') }}" type="text/css" rel="stylesheet" />
+
+{% endblock %}
+
+{% block fonts %}
+
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+
+{% endblock %}
+
+{% block javascripts %}
+
+
+{% endblock %}

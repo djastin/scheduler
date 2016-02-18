@@ -418,3 +418,24 @@ footer {
 =================================*/
 /* Landscape phone to portrait tablet */
 /* Landscape phones and down */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 300px) {
+  /* line 6, ../sass/mobile-screen.scss */
+  .mobile-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  /* line 14, ../sass/mobile-screen.scss */
+  .col-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 20, ../sass/mobile-screen.scss */
+  footer {
+    height: 10px;
+  }
+}

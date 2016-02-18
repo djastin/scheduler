@@ -1,0 +1,20 @@
+{
+  "name": "scheduler_app",
+  "version": "1.0.0",
+  "description": "scheduler_app =============",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "ismobilejs": "^0.3.9",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
